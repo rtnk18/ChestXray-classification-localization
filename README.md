@@ -1,3 +1,5 @@
+![Coverage](https://img.shields.io/badge/Coverage-40%-yellow.svg)
+![Python](https://img.shields.io/pypi/pyversions/Django.svg)
 # Chest X-ray Classification Localization
 **Classification and Localization of 14 common thoracic diseases using Deep Learning on Chest X-Rays**
 
