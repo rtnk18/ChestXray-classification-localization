@@ -1,4 +1,4 @@
-![Coverage](https://img.shields.io/badge/Coverage-40%25-yellow.svg)
+![Coverage](https://img.shields.io/badge/Coverage-60%25-yellow.svg)
 ![Python](https://img.shields.io/badge/python-3.6-blue.svg)
 ![DL](https://img.shields.io/badge/keras-2.2.4-red.svg)
 # Chest X-ray Classification Localization
