@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <meta name="generator" content="Jekyll v3.8.5">
+    <!-- <title>Cover Template · Bootstrap</title> -->
+    <title>Abnormality Detection</title>
+
+    <link rel="canonical" href="https://getbootstrap.com/docs/4.3/examples/cover/">
+
+    <!-- Bootstrap core CSS -->
+<!-- <link href="styles/bootstrap.css" rel="stylesheet" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous"> -->
+<!-- <link href="../styles/bootstrap.css" rel="stylesheet" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous"> -->
+
+
+
+
+    <style>
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+    </style>
+    <!-- Custom styles for this template -->
+    <!-- <link href="styles/cover.css" rel="stylesheet"> -->
+    <!-- <link href="./styles/cover.css" rel="stylesheet"> -->
+    <link href="./styles/cover.css" rel="stylesheet">
+    <link href="./styles/bootstrap.css" rel="stylesheet">
+  </head>
+  <script>
+    function showloading() {
+        image = document.getElementById('loading_image');
+        image.style.display = 'inline'
+    }
+</script>
+  <body class="text-center">
+    <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
+  <!-- <div> -->
+  <header class="masthead mb-auto">
+    <div class="inner">
+      <!-- <h3 class="masthead-brand">Capstone Project</h3> -->
+      <nav class="nav nav-masthead justify-content-center">
+        <!-- <a class="nav-link active" href="home.html">Home</a>
+        <a class="nav-link" href="#">Results</a>
+        <a class="nav-link" href="#">Contact</a> -->
+      </nav>
+    </div>
+  </header>
+<div class="center">
+  <main role="main" class="inner cover">
+    <h1 class="cover-heading">Chest X-Ray Disease Detector</h1>
+    <p class="lead">Upload X-Ray image to identify the presence of any disease and its location. 
+      The disease that can be identified by this app are Atelectasis, Cardiomegaly, Effusion, Infiltration, Mass, Nodule, Pneumonia and Pneumothorax.
+    </p>
+<!--     <p class="lead">
+      <br>
+        <form action="/upload" method="post" enctype="multipart/form-data" style="margin-top: 50px; width: 60%; text-align: center; margin: auto;" onsubmit="showloading()">
+      <span class="text-left btn btn-default btn-file">Upload Image<input type="file" name="image">
+    </span>
+
+
+      <span class="text-right">
+        <input type="submit" value="Predict" class="btn btn-primary">
+      </span>
+  </form>
+    <div style="text-align: center">
+        <img id="loading_image" style="display: none" src="{{ url_for('static', filename='img/loading_.gif')}}">
+    </div> -->
+
+      <!-- <a href="#" class="btn btn-lg btn-secondary">Show Results</a>
+      <br>
+
+      <a href="#" class="btn btn-lg btn-secondary">Upload Image</a>
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <a href="#" class="btn btn-lg btn-secondary">Show Results</a> -->
+    <!-- </p> -->
+  </main>
+  <div class="container" style="margin: auto;width;40%; text-align: center; margin-top: 70px;  text-transform: uppercase">
+
+
+  <!-- <h3 style="margin: auto;width: 80%; text-align: center; margin-top: 50px;  text-transform: uppercase">Dog or Cat ?</h3> -->
+  <!-- <h3 style="margin: auto;width: 80%; text-align: center; margin-top: 50px;  text-transform: uppercase">Abnormality Detection</h3> -->
+
+   <!-- <div style="text-align: center; margin-top: 20px">
+       <img style="max-width: 600px" src="{{ url_for('static', filename='img/cat_dog.jpg') }}"/>
+   </div> -->
+
+  <form action="/upload" method="post" enctype="multipart/form-data" style="margin-top: 50px; width: 60%; text-align: center; margin: auto;" onsubmit="showloading()">
+      <span class="text-left btn btn-default btn-file">
+        Upload Image <input type="file" name="image">
+        <br><br>
+        <input type="submit" value="Predict" class="btn btn-primary">
+      </span>
+      <br>
+
+      <!-- <span class="text-right">
+        <input type="submit" value="Predict" class="btn btn-primary">
+      </span> -->
+  </form>
+    <div style="text-align: center">
+        <img id="loading_image" style="display: none" src="{{ url_for('static', filename='img/loading_.gif')}}">
+    </div>
+</div>
+
+</div>
+  
+  <footer class="mastfoot mt-auto">
+    <div class="inner">
+      <p>Capstone Project by  
+        <a href="https://github.com/rtnk18">@rajat</a>,
+        <a href="https://github.com/#">@saideep</a>.
+      </p>
+    </div>
+  </footer>
+</div>
+
+
+</body></html>
