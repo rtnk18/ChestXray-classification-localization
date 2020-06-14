@@ -3,7 +3,7 @@
 # Chest X-ray Classification Localization
 **Classification and Localization of common thoracic diseases using Deep Learning on Chest X-Rays**
 
-In 2017, National Institute of Health (NIH) released the largest dataset of Chest X-Rays with 14 common thoracic lung diseases.
+In 2017, National Institute of Health (NIH) released the largest dataset of Chest X-Rays with common thoracic lung diseases.
 (https://www.nih.gov/news-events/news-releases/nih-clinical-center-provides-one-largest-publicly-available-chest-x-ray-datasets-scientific-community)
 
 ![output.png](https://github.com/rtnk18/ChestXray-classification-localization/blob/master/sample.png?raw=true)
